@@ -16,8 +16,7 @@ class MyApp extends StatelessWidget {
       title: '[staging] Flavor app',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
       ),
       home: const MyHomePage(),
     );
